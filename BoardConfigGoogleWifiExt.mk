@@ -19,5 +19,5 @@ WIFI_EXT_PATH := vendor/google/interfaces/wifi-ext
 DEVICE_MANIFEST_FILE += $(WIFI_EXT_PATH)/manifest.xml
 
 BOARD_SEPOLICY_DIRS += \
-    $(WIFI_EXT)/sepolicy/common \
-    $(WIFI_EXT)/sepolicy/google
+    $(WIFI_EXT_PATH)/sepolicy/common \
+    $(WIFI_EXT_PATH)/sepolicy/google

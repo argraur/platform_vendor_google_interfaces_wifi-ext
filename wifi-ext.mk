@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-WIFI_EXT_PATH := vendor/google/interfaces/wifi-ext
-
 # HIDL HAL
 PRODUCT_PACKAGES += \
     vendor.google.wifi_ext@1.0-service-vendor
